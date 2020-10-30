@@ -1,8 +1,8 @@
 <?php
 
 
-namespace SimplyLink\UtilsBundle\Utils;
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
+namespace Simplylink\UtilsBundle\Utils;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
 
 
 /**
@@ -10,7 +10,7 @@ use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
  *
  * GenericDataManager contains static functions for handling generic data conversion
  *
- * @package SimplyLink\UtilsBundle\Utils
+ * @package Simplylink\UtilsBundle\Utils
  */
 class GenericDataManager extends SLBaseUtils
 {

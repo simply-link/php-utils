@@ -6,10 +6,10 @@
  * Time: 12:51
  */
 
-namespace SimplyLink\UtilsBundle\Utils;
+namespace Simplylink\UtilsBundle\Utils;
 
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionRuntime;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionRuntime;
 
 /**
  * Class BaseAjaxResponse
@@ -17,7 +17,7 @@ use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionRuntime;
  * Use this class to return any AJAX response from server to client
  * Each ajax response contain success indication, data array and errors array.
  *
- * @package SimplyLink\UtilsBundle\Utils
+ * @package Simplylink\UtilsBundle\Utils
  */
 class BaseAjaxResponse extends SLBaseUtils
 {

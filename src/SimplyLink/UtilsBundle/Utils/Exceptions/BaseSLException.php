@@ -6,14 +6,14 @@
  * Date: 23/07/2017
  * Time: 11:26
  */
-namespace SimplyLink\UtilsBundle\Utils\Exceptions;
+namespace Simplylink\UtilsBundle\Utils\Exceptions;
 
 use Symfony\Component\HttpFoundation\Response;
 
 /**
  * Class BaseSLException
  *
- * @package SimplyLink\UtilsBundle\Utils\Exceptions
+ * @package Simplylink\UtilsBundle\Utils\Exceptions
  */
 abstract class BaseSLException extends \Exception
 {

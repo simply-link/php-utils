@@ -1,9 +1,9 @@
 <?php
 
 
-namespace SimplyLink\UtilsBundle\Utils\Api;
+namespace Simplylink\UtilsBundle\Utils\Api;
 
-use SimplyLink\UtilsBundle\Utils as SLUtils;
+use Simplylink\UtilsBundle\Utils as SLUtils;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Form\Form;
 use Symfony\Component\HttpFoundation\Response;

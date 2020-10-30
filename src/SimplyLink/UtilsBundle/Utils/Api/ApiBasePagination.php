@@ -1,10 +1,10 @@
 <?php
 
-namespace SimplyLink\UtilsBundle\Utils\Api;
+namespace Simplylink\UtilsBundle\Utils\Api;
 
 use Doctrine\ORM\QueryBuilder;
-use SimplyLink\UtilsBundle\Utils\Exceptions\BaseSLException;
-use SimplyLink\UtilsBundle\Utils\SLBaseUtils;
+use Simplylink\UtilsBundle\Utils\Exceptions\BaseSLException;
+use Simplylink\UtilsBundle\Utils\SLBaseUtils;
 use Pagerfanta\Adapter\DoctrineORMAdapter;
 use Pagerfanta\Pagerfanta;
 use Symfony\Component\HttpFoundation\Request;

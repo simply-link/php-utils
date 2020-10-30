@@ -6,14 +6,14 @@
  * Time: 15:14
  */
 
-namespace SimplyLink\UtilsBundle\Utils;
+namespace Simplylink\UtilsBundle\Utils;
 
 /**
  * Class ServerUtils
  *
  * ServerUtils contains static functions for handling Server data shortcuts
  *
- * @package SimplyLink\UtilsBundle\Utils
+ * @package Simplylink\UtilsBundle\Utils
  */
 class ServerUtils extends SLBaseUtils
 {

@@ -6,7 +6,7 @@
  * Time: 11:59
  */
 
-namespace SimplyLink\UtilsBundle\Utils\Monolog\Processor;
+namespace Simplylink\UtilsBundle\Utils\Monolog\Processor;
 
 class HerokuProcessor
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace SimplyLink\UtilsBundle\Utils\Api;
+namespace Simplylink\UtilsBundle\Utils\Api;
 
 
-use SimplyLink\UtilsBundle\Utils as SLUtils;
+use Simplylink\UtilsBundle\Utils as SLUtils;
 
 /**
  * Class ApiBaseModelRelation
- * @package SimplyLink\UtilsBundle\Utils\Api
+ * @package Simplylink\UtilsBundle\Utils\Api
  */
 class ApiBaseModelRelation extends SLUtils\SLBaseUtils
 {

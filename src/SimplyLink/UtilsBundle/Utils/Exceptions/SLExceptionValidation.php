@@ -6,7 +6,7 @@
  * Time: 13:17
  */
 
-namespace SimplyLink\UtilsBundle\Utils\Exceptions;
+namespace Simplylink\UtilsBundle\Utils\Exceptions;
 
 
 use Symfony\Component\Form\FormInterface;

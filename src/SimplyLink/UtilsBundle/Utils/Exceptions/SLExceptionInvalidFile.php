@@ -6,11 +6,11 @@
  * Time: 11:30
  */
 
-namespace SimplyLink\UtilsBundle\Utils\Exceptions;
+namespace Simplylink\UtilsBundle\Utils\Exceptions;
 
 /**
  *
- * @package SimplyLink\UtilsBundle\Utils\Exceptions
+ * @package Simplylink\UtilsBundle\Utils\Exceptions
  */
 class SLExceptionInvalidFile extends BaseSLException
 {

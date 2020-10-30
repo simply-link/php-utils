@@ -1,12 +1,12 @@
 <?php
 
-namespace SimplyLink\UtilsBundle\Utils\Api;
+namespace Simplylink\UtilsBundle\Utils\Api;
 
 
 
 /**
  * Class ApiBaseModel
- * @package SimplyLink\UtilsBundle\Utils\Api
+ * @package Simplylink\UtilsBundle\Utils\Api
  */
 class ApiModelPlaceholder extends ApiBaseModel
 {

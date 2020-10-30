@@ -6,7 +6,7 @@
  * Time: 12:48
  */
 
-namespace SimplyLink\UtilsBundle\Utils;
+namespace Simplylink\UtilsBundle\Utils;
 
 
 use Doctrine\Common\Persistence\ObjectManager;

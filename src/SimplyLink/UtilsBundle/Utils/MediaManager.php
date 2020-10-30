@@ -1,17 +1,17 @@
 <?php
 
-namespace SimplyLink\UtilsBundle\Utils;
+namespace Simplylink\UtilsBundle\Utils;
 
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidFile;
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionUnexpectedValue;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidFile;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionUnexpectedValue;
 
 /**
  * Class MediaManager
  *
  * MediaManager contains static functions for handling media directory structure for project
  *
- * @package SimplyLink\UtilsBundle\Utils
+ * @package Simplylink\UtilsBundle\Utils
  */
 class MediaManager extends FileUtils
 {

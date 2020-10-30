@@ -1,10 +1,10 @@
 <?php 
 
-namespace SimplyLink\UtilsBundle\Utils;
+namespace Simplylink\UtilsBundle\Utils;
 
 use JMS\Serializer\SerializationContext;
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionRuntime;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionRuntime;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
@@ -13,7 +13,7 @@ use Symfony\Component\HttpFoundation\Response;
  * SLResponseManager handle responses in many formats.
  * Response manager compatible with symfony
  *
- * @package SimplyLink\UtilsBundle\Utils
+ * @package Simplylink\UtilsBundle\Utils
  */
 class SLResponseManager extends SLBaseUtils
 {

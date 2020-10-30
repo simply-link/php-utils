@@ -1,17 +1,17 @@
 <?php
 
-namespace SimplyLink\UtilsBundle\Utils;
+namespace Simplylink\UtilsBundle\Utils;
 
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionRuntime;
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionUnexpectedValue;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionRuntime;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionUnexpectedValue;
 
 /**
  * Class ImageUtils
  *
  * ImageUtils contains static functions for handling images manipulations
  *
- * @package SimplyLink\UtilsBundle\Utils
+ * @package Simplylink\UtilsBundle\Utils
  */
 class ImageUtils extends FileUtils
 {

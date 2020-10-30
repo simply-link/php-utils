@@ -1,16 +1,16 @@
 <?php
 
-namespace SimplyLink\UtilsBundle\Utils\Checklist;
+namespace Simplylink\UtilsBundle\Utils\Checklist;
 
 use Doctrine\ORM\Mapping as ORM;
-use SimplyLink\UtilsBundle\Utils\SLBaseEntity;
+use Simplylink\UtilsBundle\Utils\SLBaseEntity;
 
 /**
  * Class BaseCheckListEntity
  *
  * Base entity class for Parallax Checklist module
  *
- * @package SimplyLink\UtilsBundle\Utils\Checklist
+ * @package Simplylink\UtilsBundle\Utils\Checklist
  */
 class BaseCheckListEntity extends SLBaseEntity
 {

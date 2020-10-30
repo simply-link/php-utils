@@ -1,16 +1,16 @@
 <?php
 
 
-namespace SimplyLink\UtilsBundle\Utils;
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionUnexpectedValue;
+namespace Simplylink\UtilsBundle\Utils;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionUnexpectedValue;
 
 /**
  * Class XmlDataManager
  *
  * XmlDataManager contains static functions for handling ANY XML data conversion
  *
- * @package SimplyLink\UtilsBundle\Utils
+ * @package Simplylink\UtilsBundle\Utils
  */
 class XmlDataManager extends GenericDataManager
 {

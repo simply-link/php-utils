@@ -1,6 +1,6 @@
 <?php
 
-namespace SimplyLink\UtilsBundle\Utils;
+namespace Simplylink\UtilsBundle\Utils;
 
 use Doctrine\Common\Persistence\ObjectManager;
 use Doctrine\ORM\EntityManager;
@@ -11,7 +11,7 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  *
  * Base Utils used to get fundamentals objects for Symfony
  *
- * @package SimplyLink\UtilsBundle\Utils
+ * @package Simplylink\UtilsBundle\Utils
  */
 class SLBaseUtils {
 

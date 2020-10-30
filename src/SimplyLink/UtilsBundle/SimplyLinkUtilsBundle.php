@@ -1,9 +1,9 @@
 <?php
 
-namespace SimplyLink\UtilsBundle;
+namespace Simplylink\UtilsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SimplyLinkUtilsBundle extends Bundle
+class SimplylinkUtilsBundle extends Bundle
 {
 }

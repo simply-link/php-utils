@@ -6,13 +6,13 @@
  * Time: 16:54
  */
 
-namespace SimplyLink\UtilsBundle\Utils\Api;
+namespace Simplylink\UtilsBundle\Utils\Api;
 
 
 use Doctrine\ORM\EntityRepository;
 use Doctrine\ORM\Mapping\MappingException;
 use Doctrine\ORM\QueryBuilder;
-use SimplyLink\UtilsBundle\Utils\GenericDataManager;
+use Simplylink\UtilsBundle\Utils\GenericDataManager;
 use Symfony\Component\HttpFoundation\Request;
 
 class BaseApiEntityRepository extends EntityRepository
@@ -22,7 +22,7 @@ class BaseApiEntityRepository extends EntityRepository
      * @param Request $request
      * @param array $filters
      * @return QueryBuilder
-     * @throws \SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument
+     * @throws \Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument
      */
     public function findAllForApiQueryBuilder(Request $request, array $filters = [])
     {

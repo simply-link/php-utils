@@ -1,9 +1,9 @@
 <?php
 
-namespace SimplyLink\UtilsBundle\Utils\Checklist;
+namespace Simplylink\UtilsBundle\Utils\Checklist;
 
-use SimplyLink\UtilsBundle\Utils\SLBaseEntity;
-use SimplyLink\UtilsBundle\Utils\SLBaseUtils;
+use Simplylink\UtilsBundle\Utils\SLBaseEntity;
+use Simplylink\UtilsBundle\Utils\SLBaseUtils;
 
 /**
  * Class BaseCheckListNamespace
@@ -15,7 +15,7 @@ use SimplyLink\UtilsBundle\Utils\SLBaseUtils;
  * Each Checklist contains a namespace using as "key" for the list. the namespace must be unique in the project
  * Entity can be attached only 1 time for each Checklist namespace
  *
- * @package SimplyLink\UtilsBundle\Utils\Checklist
+ * @package Simplylink\UtilsBundle\Utils\Checklist
  */
 abstract class BaseCheckListNamespace extends SLBaseUtils
 {

@@ -1,4 +1,4 @@
 services:
 #    simplylink_utils.example:
-#        class: SimplyLink\UtilsBundle\Example
+#        class: Simplylink\UtilsBundle\Example
 #        arguments: ["@service_id", "plain_value", %parameter%]

@@ -1,6 +1,6 @@
 <?php
 
-namespace SimplyLink\UtilsBundle\DependencyInjection;
+namespace Simplylink\UtilsBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * @link http://symfony.com/doc/current/cookbook/bundles/extension.html
  */
-class SimplyLinkUtilsExtension extends Extension
+class SimplylinkUtilsExtension extends Extension
 {
     /**
      * {@inheritdoc}

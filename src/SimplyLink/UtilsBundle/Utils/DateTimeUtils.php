@@ -6,14 +6,14 @@
  * Time: 2:47 PM
  */
 
-namespace SimplyLink\UtilsBundle\Utils;
+namespace Simplylink\UtilsBundle\Utils;
 
 /**
  * Class DateTimeUtils
  *
  * DateTimeUtils contains static functions for handling Datetime calculation and conversions
  *
- * @package SimplyLink\UtilsBundle\Utils
+ * @package Simplylink\UtilsBundle\Utils
  */
 class DateTimeUtils extends SLBaseUtils
 {

@@ -1,9 +1,9 @@
 <?php
 
 
-namespace SimplyLink\UtilsBundle\Utils;
+namespace Simplylink\UtilsBundle\Utils;
 
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
 
 
 /**
@@ -11,7 +11,7 @@ use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
  *
  * CsvDataManager contains static functions for handling ANY CSV data conversion
  *
- * @package SimplyLink\UtilsBundle\Utils
+ * @package Simplylink\UtilsBundle\Utils
  */
 class CsvDataManager extends GenericDataManager
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace SimplyLink\UtilsBundle\Utils\Api;
+namespace Simplylink\UtilsBundle\Utils\Api;
 
 
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionAuthorization;
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionUnexpectedValue;
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionValidation;
-use SimplyLink\UtilsBundle\Utils\SLBaseEntity;
-use SimplyLink\UtilsBundle\Utils\SLBaseUtils;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionAuthorization;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionUnexpectedValue;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionValidation;
+use Simplylink\UtilsBundle\Utils\SLBaseEntity;
+use Simplylink\UtilsBundle\Utils\SLBaseUtils;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Component\HttpFoundation\Request;
@@ -32,7 +32,7 @@ abstract class ApiBaseCrudController extends ApiBaseReadOnlyController
      * @param Request $request
      * @return \Symfony\Component\HttpFoundation\Response
      * @throws \Exception
-     * @throws \SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionRuntime
+     * @throws \Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionRuntime
      */
     public function createBulkRecordsAction(Request $request)
     {
@@ -137,7 +137,7 @@ abstract class ApiBaseCrudController extends ApiBaseReadOnlyController
      *
      * @param Request $request
      * @return \Symfony\Component\HttpFoundation\Response
-     * @throws \SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionRuntime
+     * @throws \Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionRuntime
      */
     public function createRecordAction(Request $request)
     {
@@ -196,7 +196,7 @@ abstract class ApiBaseCrudController extends ApiBaseReadOnlyController
      * @param Request $request
      * @return \Symfony\Component\HttpFoundation\Response
      * @throws \Exception
-     * @throws \SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionRuntime
+     * @throws \Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionRuntime
      */
     public function updateRecordAction($recordId,Request $request)
     {
@@ -254,7 +254,7 @@ abstract class ApiBaseCrudController extends ApiBaseReadOnlyController
      * @param int $recordId
      * @return \Symfony\Component\HttpFoundation\Response
      * @throws \Exception
-     * @throws \SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionRuntime
+     * @throws \Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionRuntime
      */
     public function deleteRecordAction(Request $request, $recordId)
     {

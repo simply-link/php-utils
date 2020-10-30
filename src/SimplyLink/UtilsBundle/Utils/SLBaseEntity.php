@@ -1,12 +1,12 @@
 <?php
 
-namespace SimplyLink\UtilsBundle\Utils;
+namespace Simplylink\UtilsBundle\Utils;
 
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\ORM\PersistentCollection;
 use Gedmo\Mapping\Annotation as Gedmo;
-use SimplyLink\UtilsBundle\Utils\Api\BaseApiEntityRepository;
-use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
+use Simplylink\UtilsBundle\Utils\Api\BaseApiEntityRepository;
+use Simplylink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
 
 /**
  * Class SLBaseEntity
@@ -15,7 +15,7 @@ use SimplyLink\UtilsBundle\Utils\Exceptions\SLExceptionInvalidArgument;
  * Record createdAt and updatedAt for each entity
  * Shortcut and easy to use functions
  *
- * @package SimplyLink\UtilsBundle\Utils
+ * @package Simplylink\UtilsBundle\Utils
  * @ORM\HasLifecycleCallbacks
  */
 class SLBaseEntity extends SLBaseUtils

@@ -1,15 +1,15 @@
 <?php
 
-namespace SimplyLink\UtilsBundle\Utils\Api;
+namespace Simplylink\UtilsBundle\Utils\Api;
 
 
-use SimplyLink\UtilsBundle\Utils as SLUtils;
+use Simplylink\UtilsBundle\Utils as SLUtils;
 use JMS\Serializer\Annotation as JMS;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 
 /**
  * Class ApiBaseModel
- * @package SimplyLink\UtilsBundle\Utils\Api
+ * @package Simplylink\UtilsBundle\Utils\Api
  */
 abstract class ApiBaseModel extends SLUtils\SLBaseUtils
 {

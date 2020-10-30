@@ -1,11 +1,11 @@
 <?php
 
-namespace SimplyLink\UtilsBundle\Utils;
+namespace Simplylink\UtilsBundle\Utils;
 
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\ORM\PersistentCollection;
 use Gedmo\Mapping\Annotation as Gedmo;
-use SimplyLink\UtilsBundle\Utils\Api\BaseApiEntityRepository;
+use Simplylink\UtilsBundle\Utils\Api\BaseApiEntityRepository;
 
 /**
  * Class SLApiEntityTemplate
@@ -14,7 +14,7 @@ use SimplyLink\UtilsBundle\Utils\Api\BaseApiEntityRepository;
  * Record createdAt and updatedAt for each entity
  * Shortcut and easy to use functions
  *
- * @package SimplyLink\UtilsBundle\Utils
+ * @package Simplylink\UtilsBundle\Utils
 
  */
 interface SLApiEntityTemplate

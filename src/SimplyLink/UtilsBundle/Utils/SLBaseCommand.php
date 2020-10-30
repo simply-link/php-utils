@@ -1,6 +1,6 @@
 <?php
 
-namespace SimplyLink\UtilsBundle\Utils;
+namespace Simplylink\UtilsBundle\Utils;
 
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Helper\ProgressBar;
@@ -13,7 +13,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  * BaseCommand for parallax commands, sync with parallax monitor
  * Log errors and information about the command runtime and post it to Parallax monitor
  *
- * @package SimplyLink\UtilsBundle\Utils
+ * @package Simplylink\UtilsBundle\Utils
  */
 abstract class SLBaseCommand extends ContainerAwareCommand
 {
